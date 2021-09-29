@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="themes/2.x/theme-material.css">
+    <!-- <link rel="stylesheet" href="vendor.css"> -->
+</head>
+
+<body class="swagger-section">
+    <div id="header">
+      <div class="swagger-ui-wrap">
+        <a id="logo" href="http://swagger.io"><span class="logo__title">swagger</span></a>
+        <form id="api_selector">
+          <div class="input">APIS</div>
+          <div id="auth_container"><div><a class="authorize__btn" href="#">Authorize</a>
+    </div></div>
+        
+        </form>
+      </div>
+    </div>
+    
+    <div id="message-bar" class="swagger-ui-wrap message-success" data-sw-translate=""></div>
+    
+    
+    <div class="sut-container">
+     
+      <style>
+        .sut-container{
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 30px;
+          min-width: 760px;
+          max-width: 960px;
+          font-family: 'Roboto', sans-serif;
+          border-bottom: 2px solid #e8e8e8;
+          text-align: center;
+        }
+        .theme-container {
+          margin: 30px 0;
+        }
+        .btn{
+          background-color: #2980b9;
+          border: none;
+          padding: 10px;
+          color: white;
+          text-decoration: none;
+          border-radius: 3px;
+          font-weight: 200;
+          letter-spacing: 1px;
+        }
+        .summary-method {
+    background: #000;
+    border-radius: 3px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    min-width: 80px;
+    padding: 6px 15px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 10%);
+}
+      </style>
+    
+    
+    </div>
+    
+    
+    <div id="swagger-ui-container" class="swagger-ui-wrap"><div class="info" id="api_info">
+      <div class="info_title">Swagger Petstore</div>
+      <div class="info_description markdown"><p>This is a sample server Petstore server. </p>
+    </div>
+      
+      
+     
+    </div>
+    <div class="container" id="resources_container">
+      <div class="authorize-wrapper"></div>
+    
+      <ul id="resources"><li id="resource_pet" class="resource active"><div class="heading">
+     
+     
+    </div>
+    <ul class="endpoints">
+    
+    <li class="endpoint">  <ul class="operations">
+        <li class="post operation" id="pet_uploadFile">
+          <div class="heading">
+            <h3>
+              <span class="http_method">
+              <a class="toggleOperation summary-method" style="margin-top: 10px; margin-left: 15px;">post</a>
+            </span>
+            <span class="path">
+                <a class="toggleOperation">/pet/{petId}/uploadImage</a>
+            </span>
+        </h3>
+        <ul class="options">
+            <li>
+                <a class="toggleOperation"><span class="markdown"><p>uploads an image</p>
+                </span></a>
+            </li>
+            </ul>
+          </div>
+         
+        </li>
+      </ul>
+    </li><li class="endpoint">  <ul class="operations">
+        <li class="put operation" id="pet_updatePet">
+          <div class="heading">
+            <h3>
+              <span class="http_method">
+              <a class="toggleOperation summary-method" style="margin-top: 10px; margin-left: 15px;">put</a>
+              </span>
+              <span class="path">
+              <a class="toggleOperation ">/pet</a>
+              </span>
+            </h3>
+            <ul class="options">
+              <li>
+              <a class="toggleOperation"><span class="markdown"><p>Update an existing pet</p>
+    </span></a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+    <li class="endpoint">  <ul class="operations">
+        <li class="get operation" id="pet_findPetsByTags">
+          <div class="heading">
+            <h3>
+              <span class="http_method">
+              <a  class="toggleOperation summary-method" style="margin-top: 10px; margin-left: 15px;">get</a>
+              </span>
+              <span class="path">
+              <a  class="toggleOperation deprecated">/pet/findByTags</a>
+              </span>
+            </h3>
+            <ul class="options">
+              <li>
+              <a  class="toggleOperation"><span class="markdown"><p>Finds Pets by tags</p>
+    </span></a>
+              </li>
+            </ul>
+          </div>
+        
+        </li>
+      </ul>
+    </li><li class="endpoint">  <ul class="operations">
+        <li class="delete operation" id="pet_deletePet">
+          <div class="heading">
+            <h3>
+              <span class="http_method">
+              <a class="toggleOperation summary-method" style="margin-top: 10px; margin-left: 15px;">delete</a>
+              </span>
+              <span class="path">
+              <a class="toggleOperation ">/pet/{petId}</a>
+              </span>
+            </h3>
+            <ul class="options">
+              <li>
+              <a class="toggleOperation"><span class="markdown"><p>Deletes a pet</p>
+    </span></a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </li>
+</ul>
+   
+    
+      
+    </div>
+    </div>
+    
+    
+    </body>
+
+</html>
